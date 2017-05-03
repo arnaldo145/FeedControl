@@ -80,3 +80,26 @@ body {
 footer {
     margin: 50px 0;
 }
+.letras{
+    color: green;
+    font-size: 60px;
+    font-family: "Helvetica";
+    font-style: normal;
+    font-variant: normal;
+    
+}
+.letrasF{
+    color: green;
+    font-size: 68px;
+    font-family: "Helvetica";
+    font-style: normal;
+    font-variant: normal;
+    
+}
+.letrasCachorros{
+    color: green;
+    font-size: 20px;
+    font-family: "san serife";
+    font-style: normal;
+    font-variant: normal;
+}
