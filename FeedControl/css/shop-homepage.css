@@ -103,3 +103,139 @@ footer {
     font-style: normal;
     font-variant: normal;
 }
+.titulo{
+    color: #bb5d00;
+    font-size: 20px;
+    font-family: "Helvetica Neue";
+    font-style: normal;
+    font-variant: normal;
+}
+.subtitulo{
+    color: #964b00;
+    font-size: 26px;
+    font-family: "san serife";
+    font-style: normal;
+    font-variant: normal;
+}
+.senior{
+    color: #bb5d00;
+    font-size: 20px;
+    font-family: "san serife";
+    font-style: normal;
+    font-variant: normal;
+}
+.racao img{
+    width: 200px;
+    height: 280px;
+   
+}
+.tituloSenior{
+    color: #32CD32;
+    font-size: 20px;
+    font-family: "Helvetica Neue";
+    font-style: normal;
+    font-variant: normal;
+}
+.subtituloSenior{
+    color: #32CD32;
+    font-size: 26px;
+    font-family: "san serife";
+    font-style: normal;
+    font-variant: normal;
+}
+a:link, a:visited { 
+    text-decoration: none;
+    cursor: auto;
+}
+
+a:hover{ 
+    color: darkgreen;
+}
+
+.tituloFilhoteM{
+    color: #DDA0DD;
+    font-size: 20px;
+    font-family: "Helvetica Neue";
+    font-style: normal;
+    font-variant: normal;
+}
+.subtituloFilhoteM{
+    color: #DDA0DD;
+    font-size: 26px;
+    font-family: "san serife";
+    font-style: normal;
+    font-variant: normal;
+}
+.tituloFilhoteG{
+    color: #F0E68C;
+    font-size: 20px;
+    font-family: "Helvetica Neue";
+    font-style: normal;
+    font-variant: normal;
+}
+.subtituloFilhoteG{
+    color: #F0E68C;
+    font-size: 26px;
+    font-family: "san serife";
+    font-style: normal;
+    font-variant: normal;
+}
+.tituloFilhoteMini{
+    color: #00BFFF;
+    font-size: 20px;
+    font-family: "Helvetica Neue";
+    font-style: normal;
+    font-variant: normal;
+}
+.subtituloFilhoteMini{
+    color:#00BFFF;
+    font-size: 26px;
+    font-family: "san serife";
+    font-style: normal;
+    font-variant: normal;
+}
+.tituloadulto{
+    color: #FFD700;
+    font-size: 20px;
+    font-family: "Helvetica Neue";
+    font-style: normal;
+    font-variant: normal;
+}
+.subtituloadulto{
+    color:#FFD700;
+    font-size: 26px;
+    font-family: "san serife";
+    font-style: normal;
+    font-variant: normal;
+}
+.tituloadultoM{
+    color: #800080;
+    font-size: 20px;
+    font-family: "Helvetica Neue";
+    font-style: normal;
+    font-variant: normal;
+}
+.subtituloadultoM{
+    color:#800080;
+    font-size: 26px;
+    font-family: "san serife";
+    font-style: normal;
+    font-variant: normal;
+}
+.tituloadultoP{
+    color: #00BFFF;
+    font-size: 20px;
+    font-family: "Helvetica Neue";
+    font-style: normal;
+    font-variant: normal;
+}
+.subtituloadultoP{
+    color:#00BFFF;
+    font-size: 26px;
+    font-family: "san serife";
+    font-style: normal;
+    font-variant: normal;
+}
+
+
+
