@@ -236,6 +236,10 @@ a:hover{
     font-style: normal;
     font-variant: normal;
 }
+.slide{
+    width: 500;
+    height: 250
+}
 
 
 
