@@ -48,7 +48,7 @@ body {
 
 .thumbnail {
     padding: 0;
-    
+
 }
 
 .thumbnail .caption-full {
@@ -65,8 +65,8 @@ body {
     overflow: hidden;
     width: 180px;
     height: 180px;
-    
-    
+
+
 }
 
 .thumb-vendedor img {
@@ -86,7 +86,7 @@ footer {
     font-family: "Helvetica";
     font-style: normal;
     font-variant: normal;
-    
+
 }
 .letrasF{
     color: green;
@@ -94,7 +94,7 @@ footer {
     font-family: "Helvetica";
     font-style: normal;
     font-variant: normal;
-    
+
 }
 .letrasCachorros{
     color: green;
@@ -127,7 +127,7 @@ footer {
 .racao img{
     width: 200px;
     height: 280px;
-   
+
 }
 .tituloSenior{
     color: #32CD32;
@@ -240,6 +240,70 @@ a:hover{
     width: 500;
     height: 250
 }
+.tituloGatoA{
+    color:#4747d1;
+    font-size: 16px;
+    font-family: "Helvetica Neue";
+    font-style: normal;
+    font-variant: normal;
+}
+.subtituloGatoA{
+    color:#19334d;
+    font-size: 14px;
+    font-family: "san serife";
+    font-style: normal;
+    font-variant: normal;
+    text-align: justify;
+}
+.tituloGatoF{
+    color:#FFD700;
+    font-size: 16px;
+    font-family: "Helvetica Neue";
+    font-style: normal;
+    font-variant: normal;
+}
+.tituloGatoPersa{
+    color:#007a99;
+    font-size: 16px;
+    font-family: "Helvetica Neue";
+    font-style: normal;
+    font-variant: normal;
+}
+hr {
+    color: #1f2e2e;
+    background-color:#1f2e2e;
+    height: 1px;
+}
+.tituloGatoCastrados{
+    color:#00cccc;
+    font-size: 16px;
+    font-family: "Helvetica Neue";
+    font-style: normal;
+    font-variant: normal;
+}
+.tituloGatoH{
+    color:#990099;
+    font-size: 16px;
+    font-family: "Helvetica Neue";
+    font-style: normal;
+    font-variant: normal;
+}
+.tituloGatoOBeso{
+    color:#59b300;
+    font-size: 16px;
+    font-family: "Helvetica Neue";
+    font-style: normal;
+    font-variant: normal;
+}
+.banner{
+    width: 2000px;
+    height: 300px;
+}
+
+
+
+
+
 
 
 
