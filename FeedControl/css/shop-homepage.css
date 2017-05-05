@@ -99,10 +99,20 @@ footer {
 .letrasCachorros{
     color: green;
     font-size: 20px;
-    font-family: "san serife";
+    font-family: sans-serif;
     font-style: normal;
     font-variant: normal;
 }
+
+.letrasGran{
+    color:  #4d1919;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-variant: normal;
+}
+
+
 .titulo{
     color: #bb5d00;
     font-size: 20px;
@@ -299,6 +309,40 @@ hr {
     width: 2000px;
     height: 300px;
 }
+
+
+.granplussubtitulo{
+    color: #4d1919;
+    font-size: 26px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-variant: normal;
+}
+
+.granplustitulo{
+    color: #4d1919;
+    font-size: 20px;
+    font-family: "Helvetica Neue";
+    font-style: normal;
+    font-variant: normal;
+}
+.granPlus{
+    color: #4d1919;
+    font-size: 46px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    text-align: center;
+}
+.guabi{
+    color: green;
+    font-size: 46px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    text-align: center;
+}
+
 
 
 
