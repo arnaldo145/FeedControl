@@ -342,6 +342,45 @@ hr {
     font-variant: normal;
     text-align: center;
 }
+.titulosaborVidaF{
+    color: #7575a3;
+    font-size: 20px;
+    font-family: "Helvetica Neue";
+    font-style: normal;
+    font-variant: normal;
+}
+.subtitulosaborVidaF{
+    color:#7575a3;
+    font-size: 26px;
+    font-family: "san serife";
+    font-style: normal;
+    font-variant: normal;
+}
+
+.textosaborVida{
+    color:#9494b8;
+    font-size: 16px;
+    font-family: "Helvetica Neue";
+    font-style: normal;
+    font-variant: normal;
+    text-align: justify;
+}
+.letrasSaborVida{
+    color: #666699;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-variant: normal;
+}
+.saborVida{
+    color: #666699;
+    font-size: 46px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    text-align: center;
+}
+
 
 
 
