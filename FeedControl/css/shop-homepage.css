@@ -382,6 +382,26 @@ hr {
 }
 
 
+html, body {height:100%;}
+
+.geral {
+    min-height:100%;
+    position:relative;
+    width:800px;
+}
+
+.footer {
+    position:fixed;
+    bottom:0;
+    width:100%;   
+}
+
+.content {overflow:hidden;}
+.aside {width:200px;}
+.fleft {float:left;}
+.fright {float:right;}
+
+
 
 
 
