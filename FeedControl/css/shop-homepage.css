@@ -3,7 +3,8 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
-html, body {
+html {
+    font-family: "Roboto";
     width: 100%;
     height: 100%;
 }
@@ -80,79 +81,13 @@ body {
 footer {
     margin: 50px 0;
 }
-.letras{
-    color: green;
-    font-size: 60px;
-    font-family: "Helvetica";
-    font-style: normal;
-    font-variant: normal;
 
-}
-.letrasF{
-    color: green;
-    font-size: 68px;
-    font-family: "Helvetica";
-    font-style: normal;
-    font-variant: normal;
-
-}
-.letrasCachorros{
-    color: green;
-    font-size: 20px;
-    font-family: sans-serif;
-    font-style: normal;
-    font-variant: normal;
-}
-
-.letrasGran{
-    color:  #4d1919;
-    font-size: 20px;
-    font-family: sans-serif;
-    font-style: normal;
-    font-variant: normal;
-}
-
-
-.titulo{
-    color: #bb5d00;
-    font-size: 20px;
-    font-family: "Helvetica Neue";
-    font-style: normal;
-    font-variant: normal;
-}
-.subtitulo{
-    color: #964b00;
-    font-size: 26px;
-    font-family: "san serife";
-    font-style: normal;
-    font-variant: normal;
-}
-.senior{
-    color: #bb5d00;
-    font-size: 20px;
-    font-family: "san serife";
-    font-style: normal;
-    font-variant: normal;
-}
 .racao img{
     width: 200px;
     height: 280px;
 
 }
-.tituloSenior{
-    color: #32CD32;
-    font-size: 20px;
-    font-family: "Helvetica Neue";
-    font-style: normal;
-    font-variant: normal;
-}
-.subtituloSenior{
-    color: #32CD32;
-    font-size: 26px;
-    font-family: "san serife";
-    font-style: normal;
-    font-variant: normal;
-}
+
 a:link, a:visited { 
     text-decoration: none;
     cursor: auto;
@@ -162,224 +97,11 @@ a:hover{
     color: darkgreen;
 }
 
-.tituloFilhoteM{
-    color: #DDA0DD;
-    font-size: 20px;
-    font-family: "Helvetica Neue";
-    font-style: normal;
-    font-variant: normal;
-}
-.subtituloFilhoteM{
-    color: #DDA0DD;
-    font-size: 26px;
-    font-family: "san serife";
-    font-style: normal;
-    font-variant: normal;
-}
-.tituloFilhoteG{
-    color: #F0E68C;
-    font-size: 20px;
-    font-family: "Helvetica Neue";
-    font-style: normal;
-    font-variant: normal;
-}
-.subtituloFilhoteG{
-    color: #F0E68C;
-    font-size: 26px;
-    font-family: "san serife";
-    font-style: normal;
-    font-variant: normal;
-}
-.tituloFilhoteMini{
-    color: #00BFFF;
-    font-size: 20px;
-    font-family: "Helvetica Neue";
-    font-style: normal;
-    font-variant: normal;
-}
-.subtituloFilhoteMini{
-    color:#00BFFF;
-    font-size: 26px;
-    font-family: "san serife";
-    font-style: normal;
-    font-variant: normal;
-}
-.tituloadulto{
-    color: #FFD700;
-    font-size: 20px;
-    font-family: "Helvetica Neue";
-    font-style: normal;
-    font-variant: normal;
-}
-.subtituloadulto{
-    color:#FFD700;
-    font-size: 26px;
-    font-family: "san serife";
-    font-style: normal;
-    font-variant: normal;
-}
-.tituloadultoM{
-    color: #800080;
-    font-size: 20px;
-    font-family: "Helvetica Neue";
-    font-style: normal;
-    font-variant: normal;
-}
-.subtituloadultoM{
-    color:#800080;
-    font-size: 26px;
-    font-family: "san serife";
-    font-style: normal;
-    font-variant: normal;
-}
-.tituloadultoP{
-    color: #00BFFF;
-    font-size: 20px;
-    font-family: "Helvetica Neue";
-    font-style: normal;
-    font-variant: normal;
-}
-.subtituloadultoP{
-    color:#00BFFF;
-    font-size: 26px;
-    font-family: "san serife";
-    font-style: normal;
-    font-variant: normal;
-}
 .slide{
-    width: 500;
-    height: 250
-}
-.tituloGatoA{
-    color:#4747d1;
-    font-size: 16px;
-    font-family: "Helvetica Neue";
-    font-style: normal;
-    font-variant: normal;
-}
-.subtituloGatoA{
-    color:#19334d;
-    font-size: 14px;
-    font-family: "san serife";
-    font-style: normal;
-    font-variant: normal;
-    text-align: justify;
-}
-.tituloGatoF{
-    color:#FFD700;
-    font-size: 16px;
-    font-family: "Helvetica Neue";
-    font-style: normal;
-    font-variant: normal;
-}
-.tituloGatoPersa{
-    color:#007a99;
-    font-size: 16px;
-    font-family: "Helvetica Neue";
-    font-style: normal;
-    font-variant: normal;
-}
-hr {
-    color: #1f2e2e;
-    background-color:#1f2e2e;
-    height: 1px;
-}
-.tituloGatoCastrados{
-    color:#00cccc;
-    font-size: 16px;
-    font-family: "Helvetica Neue";
-    font-style: normal;
-    font-variant: normal;
-}
-.tituloGatoH{
-    color:#990099;
-    font-size: 16px;
-    font-family: "Helvetica Neue";
-    font-style: normal;
-    font-variant: normal;
-}
-.tituloGatoOBeso{
-    color:#59b300;
-    font-size: 16px;
-    font-family: "Helvetica Neue";
-    font-style: normal;
-    font-variant: normal;
-}
-.banner{
-    width: 2000px;
-    height: 300px;
+    width: 100%;
+    height: 100%;
 }
 
-
-.granplussubtitulo{
-    color: #4d1919;
-    font-size: 26px;
-    font-family: sans-serif;
-    font-style: normal;
-    font-variant: normal;
-}
-
-.granplustitulo{
-    color: #4d1919;
-    font-size: 20px;
-    font-family: "Helvetica Neue";
-    font-style: normal;
-    font-variant: normal;
-}
-.granPlus{
-    color: #4d1919;
-    font-size: 46px;
-    font-family: sans-serif;
-    font-style: normal;
-    font-variant: normal;
-    text-align: center;
-}
-.guabi{
-    color: green;
-    font-size: 46px;
-    font-family: sans-serif;
-    font-style: normal;
-    font-variant: normal;
-    text-align: center;
-}
-.titulosaborVidaF{
-    color: #7575a3;
-    font-size: 20px;
-    font-family: "Helvetica Neue";
-    font-style: normal;
-    font-variant: normal;
-}
-.subtitulosaborVidaF{
-    color:#7575a3;
-    font-size: 26px;
-    font-family: "san serife";
-    font-style: normal;
-    font-variant: normal;
-}
-
-.textosaborVida{
-    color:#9494b8;
-    font-size: 16px;
-    font-family: "Helvetica Neue";
-    font-style: normal;
-    font-variant: normal;
-    text-align: justify;
-}
-.letrasSaborVida{
-    color: #666699;
-    font-size: 20px;
-    font-family: sans-serif;
-    font-style: normal;
-    font-variant: normal;
-}
-.saborVida{
-    color: #666699;
-    font-size: 46px;
-    font-family: sans-serif;
-    font-style: normal;
-    font-variant: normal;
-    text-align: center;
-}
 
 
 html, body {height:100%;}
@@ -401,53 +123,12 @@ html, body {height:100%;}
 .fleft {float:left;}
 .fright {float:right;}
 
-.faro{
-    color: #0052cc;
-    font-size: 46px;
-    font-family: sans-serif;
-    font-style: normal;
-    font-variant: normal;
-    text-align: center;
-}
-.letrasFaro{
-    color: #995c00;
-    font-size: 20px;
-    font-family: sans-serif;
-    font-style: normal;
-    font-variant: normal;
-}
-.heroi{
-    color: #248f24;
-    font-size: 46px;
-    font-family: sans-serif;
-    font-style: normal;
-    font-variant: normal;
-    text-align: center;
-}
-.letrasHeroi{
-    color: #248f24;
-    font-size: 20px;
-    font-family: sans-serif;
-    font-style: normal;
-    font-variant: normal;
-}
-.fiel{
-    color: #248f24;
-    font-size: 46px;
-    font-family: sans-serif;
-    font-style: normal;
-    font-variant: normal;
-    text-align: center;
-}
-.letrasFiel{
-    color: #248f24;
-    font-size: 20px;
-    font-family: sans-serif;
-    font-style: normal;
-    font-variant: normal;
-}
 
 
+#map {
+  height: 800px;
+  width: 100%;
+ }
 
 
 

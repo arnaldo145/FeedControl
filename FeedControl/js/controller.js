@@ -1,39 +1,36 @@
 var app = angular.module('contactApp', []);
 
 
-app.controller('ContactController', function ($scope, $http) {
-    $scope.result = 'hidden'
-    $scope.resultMessage;
-    $scope.formData; //formData is an object holding the name, email, subject, and message
-    $scope.submitButtonDisabled = false;
-    $scope.submitted = false; //used so that form errors are shown only after the form has been submitted
-    $scope.submit = function(contactform) {
-        
-        $scope.submitted = true;
-        $scope.submitButtonDisabled = true;
-        if (contactform.$valid) {
-            
-            $http({
-                method  : 'POST',
-                url     : 'php/contact-form.php',
-                data    : $.param($scope.formData),  //param method from jQuery
-                headers : { 'Content-Type': 'application/x-www-form-urlencoded' }  //set the headers so angular passing info as form data (not request payload)
-            }).then(function(data){
-                console.log(data);
-                if (data.success) { //success comes from the return json object
-                    $scope.submitButtonDisabled = true;
-                    $scope.resultMessage = data.message;
-                    $scope.result='bg-success';
-                } else {
-                    $scope.submitButtonDisabled = false;
-                    $scope.resultMessage = data.message;
-                    $scope.result='bg-danger';
-                }
+app.controller('CidadesController', function ($scope) {
+    function initMap() {
+        var locations = [
+            ['Title A', 3.180967, 101.715546, 1],
+            ['Title B', 3.200848, 101.616669, 2],
+            ['Title C', 3.147372, 101.597443, 3],
+            ['Title D', 3.19125, 101.710052, 4]
+        ];
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 12,
+            center: new google.maps.LatLng(3.171368, 101.653404),
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        });
+
+        var infowindow = new google.maps.InfoWindow;
+
+        var marker, i;
+
+        for (i = 0; i < locations.length; i++) {
+            marker = new google.maps.Marker({
+                position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+                map: map
             });
-        } else {
-            $scope.submitButtonDisabled = false;
-            $scope.resultMessage = 'Failed :( Please fill out all the fields.';
-            $scope.result='bg-danger';
+
+            google.maps.event.addListener(marker, 'click', (function (marker, i) {
+                return function () {
+                    infowindow.setContent(locations[i][0]);
+                    infowindow.open(map, marker);
+                }
+            })(marker, i));
         }
     }
 });
