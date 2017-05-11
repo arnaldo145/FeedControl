@@ -401,7 +401,51 @@ html, body {height:100%;}
 .fleft {float:left;}
 .fright {float:right;}
 
-
+.faro{
+    color: #0052cc;
+    font-size: 46px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    text-align: center;
+}
+.letrasFaro{
+    color: #995c00;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-variant: normal;
+}
+.heroi{
+    color: #248f24;
+    font-size: 46px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    text-align: center;
+}
+.letrasHeroi{
+    color: #248f24;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-variant: normal;
+}
+.fiel{
+    color: #248f24;
+    font-size: 46px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    text-align: center;
+}
+.letrasFiel{
+    color: #248f24;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-variant: normal;
+}
 
 
 
