@@ -8,7 +8,10 @@ html {
     width: 100%;
     height: 100%;    
 }
-
+.row {
+     margin-right: 0; 
+     margin-left: 0; 
+}
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
@@ -111,12 +114,11 @@ article {
     margin: 0 auto;
 }
 
-#rodape{
-    background: #f0f5f5;
-    font-size: 12px;
-    line-height: 80px;
-    padding: 200px 0;
-    margin: 0;
+footer#rodape {
+	background: #f7f9f7;
+	font-size: 12px;
+	line-height: 20px;
+	padding: 65px 65px 65px 115px;
 }
 /*footer {
     position: fixed; 
@@ -156,18 +158,54 @@ article {
 .multidiciplinar{
     background-color:#f0f5f5;
 }
-.bloco{
-    width: 80px;
-    height: 100px;
+.email {
+    margin-left: 6%;
+    
 }
-#primeiro{
-    margin-right: 260px;
+.footer#rodape  {
+
+	/*min-height: 100px;*/
+	/*width: 225px;*/
+}/*
+footer#rodape #primeiro {
+	color: #3a5422;
+	margin-right: 260px;
 }
-.conteudo{
-    margin: 0 auto;
-    padding: 0 10px 0 10px;
-    width: 1080px;
+footer#rodape #primeiro img { margin-top: -20px; }*/
+
+
+/*
+footer#rodape #navegacao { display: none; }
+*/
+
+footer#rodape .bloco nav ul li { list-style: none; }
+footer#rodape .bloco nav ul li a { color: #6f6f6f; }
+footer#rodape .bloco nav ul li a:hover {
+    color: #3f5922;
+    font-weight: 700;
 }
+footer#rodape .bloco nav .rede {
+	background: #b6c72c;
+	border-radius: 30px;
+	color: #fff;
+	float: left;
+	height: 25px;
+	line-height: 25px;
+	margin: 20px 8px 0 0;
+	text-align: center;
+	width: 25px;
+}
+footer#rodape .bloco nav .rede:hover { background: #3a5422; }
+
+footer#rodape #direita {
+	float: right;
+	margin-right: 0;
+	width: 250px;
+}
+footer#rodape #direita strong {
+	color: #b6c72c;
+}
+
 
 
 
