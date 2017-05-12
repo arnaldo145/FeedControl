@@ -20,6 +20,11 @@ body {
     width: 100%;
 }
 
+.carousel-imagens {
+    padding-right: 0 !important; 
+    padding-left: 0 !important;
+}
+
 .carousel-holder {
     margin-bottom: 30px;
 }
@@ -136,6 +141,12 @@ footer#rodape {
     width: 600px;
 }
 
+.frame-form {
+ min-width: 600px;
+ min-height: 400px;
+ width: 100%;
+ height: 1200px;
+}
 
 #map {
     height: 800px;
