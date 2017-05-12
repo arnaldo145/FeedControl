@@ -2,6 +2,8 @@ var app = angular.module('contactApp', []);
 
 
 app.controller('CidadesController', function ($scope) {
+
+
     function initMap() {
         var locations = [
             ['Title A', 3.180967, 101.715546, 1],

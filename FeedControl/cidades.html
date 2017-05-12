@@ -17,6 +17,10 @@
         <!-- Custom CSS -->
         <link href="css/shop-homepage.css" rel="stylesheet">
 
+
+
+
+
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -26,8 +30,8 @@
 
     </head>
 
-    <body ng-controller="CidadesController">
-
+    <body ng-controller="CidadesController">      
+<!--  -->
         <!-- Navigation -->
         <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
             <div class="container">
@@ -64,22 +68,27 @@
                 <!-- /.navbar-collapse -->
             </div>
             <!-- /.container -->
-        </nav>
-
-        <div class="container" >
+        </nav>        
+        <div id="map"></div>
+     
+        
+        <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9UvTqsa3HWttJpOUJPpecIHj_XGDsLoE&callback=initMap();">
+        </script>
+        <!--  <div class="container" >
             <div class="row">
                 <div  id="map" class="col-sm-1 col-lg-1 col-md-1">
-                    <!--                    <footer>
+                                        <footer>
                                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3528.7025251825326!2d-50.34569268452909!3d-27.81892288274585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e01f56a7d7881f%3A0x3b105f266fa26288!2sR.+Val%C3%A9rio+Antunes%2C+1283+-+Copacabana%2C+Lages+-+SC%2C+88504-310!5e0!3m2!1spt-BR!2sbr!4v1492437884328" width="1100" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                                        </footer>-->
-
+                                        </footer>
+    
                     <script async defer
                             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtNwyAdA37_8FuYUNUHuNmG2e_o1zVdQM&callback=initMap()">
                     </script>
-
+    
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Page Content -->
         <div class="container">
             <div class="col-md-9">
