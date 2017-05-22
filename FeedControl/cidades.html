@@ -10,7 +10,7 @@
         <meta name="author" content="">
 
         <title>FeedControl</title>
-        
+
         <link rel="icon"  href="img/icone.png" />
 
         <!-- Bootstrap Core CSS -->
@@ -18,8 +18,9 @@
 
         <!-- Custom CSS -->
         <link href="css/shop-homepage.css" rel="stylesheet">
-        
+
         <link rel="icon"  href="img/icone.png" />
+        <link href="js/controller.js"/>
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -84,9 +85,21 @@
                     Confira as cidades atendidas e quais vendedores estarão disponíveis para atender seu pedido.
                     <br>
                     <br>
-                    <img src="img/mapa_amures.jpg" class="img-responsive" alt="Imagem Responsiva">
+                    <!-- apartir daqui 
+                   <img src="img/mapa_amures.jpg" class="img-responsive" alt="Imagem Responsiva">
+                    -->
+                <div ng-controller="CidadesController" ng-init="mapa()">
+                    
+                    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619472.0946356915!2d-53.34007345282933!3d-27.635641943156802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d94d25c052fff9%3A0x2b277580ed7fab2b!2sSanta+Catarina!5e0!3m2!1spt-BR!2sbr!4v1495463399148" width="300" height="180" frameborder="0" style="border:0" allowfullscreen></iframe>
+                
             </div>
         </div>
+
+        <!-- apartir daqui -->
+
+
+
+        <!-- até aqui -->
         <br>
         <div class="table-responsive">
             <table class="table table-bordered">
