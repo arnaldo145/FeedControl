@@ -22,6 +22,8 @@
         <link rel="icon"  href="img/icone.png" />
         <link href="js/controller.js"/>
 
+
+
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -88,104 +90,144 @@
                     <!-- apartir daqui 
                    <img src="img/mapa_amures.jpg" class="img-responsive" alt="Imagem Responsiva">
                     -->
-                <div ng-controller="CidadesController" ng-init="mapa()">
-                    
-                    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619472.0946356915!2d-53.34007345282933!3d-27.635641943156802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d94d25c052fff9%3A0x2b277580ed7fab2b!2sSanta+Catarina!5e0!3m2!1spt-BR!2sbr!4v1495463399148" width="300" height="180" frameborder="0" style="border:0" allowfullscreen></iframe>
-                
-            </div>
-        </div>
+                <div ng-controller="CidadesController" >
+                    <div id="map"></div>
+                    <script>
 
-        <!-- apartir daqui -->
+                                        function initMap() {
 
+                                            var map = new google.maps.Map(document.getElementById('map'), {
+                                                zoom: 9,
+                                                center: {lat: -27.815833333333, lng: -50.325833333333}
+                                            });
 
+                                            // Create an array of alphabetical characters used to label the markers.
+                                            var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
-        <!-- até aqui -->
-        <br>
-        <div class="table-responsive">
-            <table class="table table-bordered">
-                <thead>
-                    <tr>
-                        <th>Cidade</th>
-                        <th>Vendedor</th>
-                        <th>Contato</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Lages</td>
-                        <td>Vendedor 1</td>
-                        <td>(49) 3222-000</td>
-                    </tr>
-                    <tr>
-                        <td>Capão Alto</td>
-                        <td>Vendedor 2</td>
-                        <td>(49) 3222-000</td>
-                    </tr>
-                    <tr>
-                        <td>Correia Pinto</td>
-                        <td>Vendedor 3</td>
-                        <td>(49) 3222-000</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+                                            // Add some markers to the map.
+                                            // Note: The code uses the JavaScript Array.prototype.map() method to
+                                            // create an array of markers based on a given "locations" array.
+                                            // The map() method here has nothing to do with the Google Maps API.
+                                            var markers = locations.map(function (location, i) {
+                                                return new google.maps.Marker({
+                                                    position: location,
+                                                    label: labels[i % labels.length]
+                                                });
+                                            });
 
+                                            // Add a marker clusterer to manage the markers.
+                                            var markerCluster = new MarkerClusterer(map, markers,
+                                                    {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+                                        }
+                                        var locations = [
+                                            {lat: -27.282777777778, lng: -50.584444444444},
+                                            {lat: -28.293888888889, lng: -49.931666666667},
+                                            {lat: -28.015, lng: -49.591666666667},
+                                            {lat: -27.584722222222, lng: -50.361111111111},
+                                            {lat: -27.815833333333, lng: -50.325833333333},
+                                            
+                                        ]
+                    </script>
+                    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+                    </script>
+                    <script async defer
+                            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDFq_37cVpYUhkRRbAS3MuFG7P7fRiAoGg&callback=initMap">
+                    </script>
 
-
-
-
-        <!-- jQuery -->
-        <script src="js/jquery.js"></script>
-
-        <!-- Bootstrap Core JavaScript -->
-        <script src="js/bootstrap.min.js"></script>
-
-        <footer id="rodape">
-            <div class="row">
-                <!--<div class="conteudo">--> 
-                <div class="col-sm-4 col-lg-4 col-md-4">
-                    <div class="bloco" id="primeiro" >
-                        <img src="img/logo.png" >
-                        <br>
-                        <i class="fa fa-envelope-o email" aria-hidden="true" ></i>tanto@tanto.com.br
-                    </div>
-                </div>
-                <div class="col-sm-4 col-lg-4 col-md-4">
-                    <div class="bloco" id="nevegacao">
-                        <!--                            <strong> Unidade Lages </strong>-->
-                        <br>
-                        <nav >
-                            <ul>
-                                <li>
-                                    <a href="sobre.html">Empresa</a>
-                                </li>
-                                <li>
-                                    <a href="contato.html">Contato</a>
-                                </li>
-                                <li>
-                                    <a href="vendedores.html">Vendedores</a>
-                                </li>
-                                <li>
-                                    <a href="cidades.html">Cidades Atendidas</a>
-                                </li>                          
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-lg-4 col-md-4">
-                    <div class="bloco" id="direita">
-                        <strong> Unidade Lages </strong>
-                        <br>
-                        <br>
-                        Bairro: Centro
-                        <br>
-                        CEP: 88501-045
-                        <br>
-                        Contato: (49)3232-1232
-                    </div> 
                 </div>
             </div>
-            <!--</div>-->
-        </footer>
+
+            <!-- apartir daqui -->
+
+
+
+            <!-- até aqui -->
+            <br>
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Cidade</th>
+                            <th>Vendedor</th>
+                            <th>Contato</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Lages</td>
+                            <td>Vendedor 1</td>
+                            <td>(49) 3222-000</td>
+                        </tr>
+                        <tr>
+                            <td>Capão Alto</td>
+                            <td>Vendedor 2</td>
+                            <td>(49) 3222-000</td>
+                        </tr>
+                        <tr>
+                            <td>Correia Pinto</td>
+                            <td>Vendedor 3</td>
+                            <td>(49) 3222-000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+
+
+
+            <!-- jQuery -->
+            <script src="js/jquery.js"></script>
+
+            <!-- Bootstrap Core JavaScript -->
+            <script src="js/bootstrap.min.js"></script>
+
+            <footer id="rodape">
+                <div class="row">
+                    <!--<div class="conteudo">--> 
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="bloco" id="primeiro" >
+                            <img src="img/logo.png" >
+                            <br>
+                            <i class="fa fa-envelope-o email" aria-hidden="true" ></i>tanto@tanto.com.br
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="bloco" id="nevegacao">
+                            <!--                            <strong> Unidade Lages </strong>-->
+                            <br>
+                            <nav >
+                                <ul>
+                                    <li>
+                                        <a href="sobre.html">Empresa</a>
+                                    </li>
+                                    <li>
+                                        <a href="contato.html">Contato</a>
+                                    </li>
+                                    <li>
+                                        <a href="vendedores.html">Vendedores</a>
+                                    </li>
+                                    <li>
+                                        <a href="cidades.html">Cidades Atendidas</a>
+                                    </li>                          
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="bloco" id="direita">
+                            <strong> Unidade Lages </strong>
+                            <br>
+                            <br>
+                            Bairro: Centro
+                            <br>
+                            CEP: 88501-045
+                            <br>
+                            Contato: (49)3232-1232
+                        </div> 
+                    </div>
+                </div>
+                <!--</div>-->
+            </footer>
     </body>
 </html>
