@@ -125,6 +125,12 @@ footer#rodape {
 	line-height: 20px;
 	padding: 65px 65px 65px 115px;
 }
+.tituloGeral{
+    font-size: 44px;
+    text-align: center;
+    color: green;
+}
+
 /*footer {
     position: fixed; 
     bottom: 0px; 
@@ -173,21 +179,7 @@ footer#rodape {
     margin-left: 6%;
     
 }
-.footer#rodape  {
 
-	/*min-height: 100px;*/
-	/*width: 225px;*/
-}/*
-footer#rodape #primeiro {
-	color: #3a5422;
-	margin-right: 260px;
-}
-footer#rodape #primeiro img { margin-top: -20px; }*/
-
-
-/*
-footer#rodape #navegacao { display: none; }
-*/
 
 footer#rodape .bloco nav ul li { list-style: none; }
 footer#rodape .bloco nav ul li a { color: #6f6f6f; }
